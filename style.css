@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4ede4;
+    color: #4b3f35;
+}
+
+/* container central */
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* título */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #a47148; /* marrom caramelo */
+}
+
+/* imagem */
+.foto {
+    width: 220px;
+    border-radius: 15px;
+    margin: 15px 0;
+    filter: brightness(0.95) contrast(1.05);
+}
+
+/* cards */
+.card {
+    background-color: #fffaf5; /* quase branco quente */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* títulos dos cards */
+.card h2 {
+    color: #b08968;
+    margin-bottom: 10px;
+}
+
+/* listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* hover suave */
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
