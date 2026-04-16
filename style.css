@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #1a1410;
-    color: #d4c4b0;
+    background-color: #eee4d6;
+    color: #5f4b3a;
     padding: 1rem;
 }
 
@@ -20,7 +20,7 @@ body {
 .blog-header {
     text-align: center;
     padding: 2.5rem 0 1.5rem;
-    border-bottom: 0.5px solid #3a2e24;
+    border-bottom: 0.5px solid #c9b49a;
     margin-bottom: 2rem;
 }
 
@@ -28,7 +28,7 @@ body {
     font-size: 11px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: #7a5c3e;
+    color: #8c7157;
     margin-bottom: 0.75rem;
     font-weight: 300;
 }
@@ -37,7 +37,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: clamp(2.2rem, 6vw, 3.2rem);
     font-weight: 400;
-    color: #e8d8c4;
+    color: #6e5440;
     line-height: 1.1;
     margin-bottom: 0.5rem;
 }
@@ -49,14 +49,14 @@ h1 {
 
 .foto {
     width: clamp(140px, 40vw, 200px);
-    border-radius: 4px;
+    border-radius: 10px;
     filter: sepia(0.3) brightness(0.85) contrast(1.05);
-    border: 0.5px solid #3a2e24;
+    border: 0.5px solid #c9b49a;
 }
 
 .card {
-    background: #201810;
-    border: 0.5px solid #3a2e24;
+    background: #e3d4c1;
+    border: 0.5px solid #c7b198;
     border-radius: 10px;
     padding: 1.5rem 1.75rem;
     margin-bottom: 1.25rem;
@@ -67,13 +67,13 @@ h1 {
     align-items: baseline;
     gap: 0.75rem;
     margin-bottom: 1.25rem;
-    border-bottom: 0.5px solid #2e2218;
+    border-bottom: 0.5px solid #cbb49b;
     padding-bottom: 0.85rem;
 }
 
 .num {
     font-size: 12px;
-    color: #5a4535;
+    color: #9a7d61;
     letter-spacing: 0.15em;
     font-weight: 300;
 }
@@ -82,7 +82,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 1.1rem;
     font-weight: 400;
-    color: #c9aa88;
+    color: #7a5d46;
 }
 
 .card ul,
@@ -95,18 +95,18 @@ h1 {
 
 .card li {
     font-size: 14px;
-    color: #a8927a;
+    color: #5c4939;
     font-weight: 300;
     line-height: 1.6;
 }
 
 .card ol li::marker {
-    color: #5a4535;
+    color: #8f7359;
     font-size: 12px;
 }
 
 .card ul li::marker {
-    color: #5a4535;
+   color: #8f7359;
 }
 
 /* responsivo */
